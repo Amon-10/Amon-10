@@ -33,4 +33,4 @@ Infra:       Docker · Docker Compose
 
 ### Goals
 
-Backend engineering internship at a company building real infrastructure. Mid-size or startup. Somewhere the work matters.
+Backend engineering internship or role at a company building real infrastructure. Mid-size or startup. Somewhere the work matters.
