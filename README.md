@@ -1,34 +1,48 @@
 # Hey, I'm Aman 👋
- 
-Backend engineer in training. I build systems that work the way real production backends do — asynchronous, fault-tolerant, and deliberately designed.
- 
-Currently a CS student at Cal Poly Pomona (Dec 2027) focused on distributed systems and backend infrastructure. I learn by building things that are actually hard.
- 
----
- 
-### What I've Built
- 
-- 🔧 **doc-pipeline** — A distributed document processing pipeline. PDFs are extracted, chunked, summarized in parallel via OpenAI, merged, and emailed back — orchestrated through a 5-stage async job queue with retry logic and fault isolation. Deployed live on Railway. Diagnosed and fixed a real BullMQ race condition along the way.
-- 🔨 **Git Internals** — Core Git commands implemented from scratch in TypeScript. No libraries. Just the spec.
----
- 
-### Currently Learning
- 
-- Go — for systems and infrastructure work
-- Distributed systems concepts via Boot.dev and CodeCrafters
-- DSA — working toward consistent LeetCode practice
----
- 
-### Stack
- 
-```
-Languages:   TypeScript · Python · C · C++ · Go (learning)
-Backend:     Node.js · Express · BullMQ · PostgreSQL · Redis
-Infra:       Docker · Docker Compose
-```
- 
----
- 
-### Goals
- 
-Backend engineering internship or role at a company building real infrastructure. Mid-size or startup. Somewhere the work matters.
+
+CS student focused on backend and systems engineering.
+
+I like building software that goes beyond CRUD — asynchronous pipelines,
+networked applications, concurrency, databases, and infrastructure.
+
+## Featured Projects
+
+### Doc Pipeline
+Distributed document-processing backend with:
+- async BullMQ/Redis job orchestration
+- PostgreSQL persistence
+- JWT authentication and per-user document ownership
+- parallel summarization and retry handling
+- transactional email notifications
+- integration tests with isolated test services
+- GitHub Actions CI
+- Dockerized deployment on Railway
+- custom domain and DNS configuration
+
+### Git Internals
+Implemented core Git object and repository operations from scratch in TypeScript,
+including hashing, compression, blob/tree handling, and repository internals.
+
+### Terminal Chat
+Building a concurrent terminal chat server in Go using raw TCP,
+goroutines, and the standard library.
+
+## Tech
+
+**Languages:** Go · TypeScript · Python · C · C++
+
+**Backend:** Node.js · Express · PostgreSQL · Redis · BullMQ
+
+**Systems:** TCP/IP · HTTP · concurrency · Linux
+
+**Infrastructure:** Docker · GitHub Actions · Railway · Cloudflare
+
+## Currently Working On
+
+- Go networking and concurrency
+- DSA / technical interview preparation
+- backend and distributed-systems fundamentals
+
+## Looking For
+
+Junior backend/software engineering roles and internships.
