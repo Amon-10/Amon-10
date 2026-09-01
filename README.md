@@ -1,48 +1,36 @@
 # Hey, I'm Aman 👋
 
-CS student focused on backend and systems engineering.
+Computer Science student focused on **backend and systems engineering**.
 
-I like building software that goes beyond CRUD — asynchronous pipelines,
-networked applications, concurrency, databases, and infrastructure.
+I enjoy building software involving networking, concurrency, asynchronous processing, databases, and infrastructure.
 
-## Featured Projects
+## Projects
 
-### Doc Pipeline
-Distributed document-processing backend with:
-- async BullMQ/Redis job orchestration
-- PostgreSQL persistence
-- JWT authentication and per-user document ownership
-- parallel summarization and retry handling
-- transactional email notifications
-- integration tests with isolated test services
-- GitHub Actions CI
-- Dockerized deployment on Railway
-- custom domain and DNS configuration
-
-### Git Internals
-Implemented core Git object and repository operations from scratch in TypeScript,
-including hashing, compression, blob/tree handling, and repository internals.
-
-### Terminal Chat
-Building a concurrent terminal chat server in Go using raw TCP,
-goroutines, and the standard library.
+- **Doc Pipeline** — asynchronous document-processing backend with PostgreSQL, Redis, BullMQ, Docker, CI, authentication, and transactional email.
+- **Terminal Chat** — concurrent TCP chat application in Go using goroutines and the standard library.
+- **Git Internals** — implementation of core Git object operations from scratch in TypeScript.
 
 ## Tech
 
 **Languages:** Go · TypeScript · Python · C · C++
 
-**Backend:** Node.js · Express · PostgreSQL · Redis · BullMQ
+**Backend:** Node.js · Express · PostgreSQL · Redis · BullMQ · REST APIs
 
-**Systems:** TCP/IP · HTTP · concurrency · Linux
+**Systems:** TCP/IP · HTTP · Concurrency · Linux · Git Internals
 
-**Infrastructure:** Docker · GitHub Actions · Railway · Cloudflare
+**Infrastructure:** Docker · Docker Compose · GitHub Actions · Railway · Cloudflare · Git
 
 ## Currently Working On
 
 - Go networking and concurrency
-- DSA / technical interview preparation
-- backend and distributed-systems fundamentals
+- Data structures and algorithms
+- Technical interview preparation
+- Backend and distributed-systems fundamentals
+
+## Interests
+
+Backend Engineering · Systems Programming · Distributed Systems · Networking · Databases · Cloud Infrastructure
 
 ## Looking For
 
-Junior backend/software engineering roles and internships.
+Software engineering internships and junior backend/software engineering roles.
